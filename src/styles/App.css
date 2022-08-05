@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 20px;
+    border: 5px solid #4e4e52;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.489);
+}
+
+.App-header {
+    font-size: 1rem;
+    text-align: center;
+    color:rgba(7, 22, 65, 0.489);
+}
+
+.display {
+    padding: 1rem 1rem 2rem 0;
+    text-align: right;
+    background-color:rgba(0, 0, 0, 0.489);
+    color: white;
+    font-size: 20px;
+    margin: 0 1rem;
+    max-height: 2.5rem;
+    overflow: hidden;
+}
+
+.buttons-wrapper {
+      color:rgba(0, 0, 0, 0.489);
+      font-size: 50px;
+      padding: 1rem;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      gap: .5rem;
+}
+
+
+.ac {
+    grid-column: 1;
+    grid-row: 4;
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: lightslategray;
+}
+.c {
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: lightslategray;
+}
+.equal {
+    grid-column: 1 / 5;
+    grid-row: 5;
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: rgb(91, 149, 207);
+}
+.four {
+    grid-column: 1;
+    grid-row: 2;
+}
+.five {
+    grid-column: 2;
+    grid-row: 2;
+}
+.six {
+    grid-column: 3;
+    grid-row: 2;
+}
+.one {
+    grid-column: 1;
+    grid-row: 3;
+}
+.two {
+    grid-column: 2;
+    grid-row: 3;
+}
+.three {
+    grid-column: 3;
+    grid-row: 3;
+}
+.zero {
+    grid-column: 3;
+    grid-row: 4;
+}
+.multiply {
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: rgb(161, 177, 192);
+}
+.divide {
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: rgb(161, 177, 192);
+}
+.add {
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: rgb(161, 177, 192);
+}
+.subtract {
+    font-size: 20px;
+    padding: .5rem 0;
+    background-color: rgb(161, 177, 192);
+}
+
+/* Memory Functions */
+.ms,
+.mc,
+.mr,
+.m-minus,
+.m-plus {
+    padding: .5rem 0;
+    background-color: rgb(212, 209, 165);
+}
+
+
+
+
+
